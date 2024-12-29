@@ -1,6 +1,6 @@
 package com.archi.SecurityEg.controller;
 
-import com.archi.SecurityEg.Students;
+import com.archi.SecurityEg.entity.Students;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.security.web.csrf.CsrfToken;
 import org.springframework.web.bind.annotation.*;

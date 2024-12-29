@@ -1,4 +1,4 @@
-package com.archi.SecurityEg;
+package com.archi.SecurityEg.entity;
 
 import lombok.*;
 
