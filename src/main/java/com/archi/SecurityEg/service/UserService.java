@@ -32,8 +32,9 @@ public class UserService {
         Authentication authentication =
                 authManager.authenticate(new UsernamePasswordAuthenticationToken(user.getUsername(), user.getPassword()));
        if ( authentication.isAuthenticated())
-           return jwtService.generateToken();
+           return jwtService.generateToken(user.getUsername());
 
        return "Try Again!";
     }
 }
+
